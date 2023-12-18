@@ -1,0 +1,21 @@
+Lecture 06
+==========
+
+Before class:
+-------------
+I watched the week 6 lecture videos and completed the weekly checkpoint.
+
+
+Open questions:
+What is the difference between exit() and _exit and when do you use each?
+Is there a way to keep track of child PIDs when fork is called?
+
+After class:
+------------
+Important take-away:
+- Can't change the memory locations on the stack due to the stack only being either readable or executable; will not be both at the same time
+- If exit(0) than exit function is used and the exit system call is used
+- If _exit than you immediately exit and the output is not flushed 
+- Need to keep track of child PIDs when fork is called, no way of knowing child pid after fork has been called
+
+

@@ -1,0 +1,21 @@
+Lecture 04
+==========
+
+Before class:
+-------------
+I watched the week 4 lecture videos and completed the weekly checkpoint.
+
+
+Open questions:
+What is FTS and how does it work?
+How were people able to discover a leap second?
+
+After class:
+------------
+Important take-away:
+- Fts_open(): to open the file hierarchy
+- Fts_read(): read the file hierarchy
+- Fts_child(): list of entries underneath the current entry
+	- Pointer to a linked list with all the entries
+- _ftsent: information about location within hierarchy and the stat library
+- It is important that all saved passwords are hashed and not encrypted since hashing is a one way operation

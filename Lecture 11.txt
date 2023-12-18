@@ -1,0 +1,19 @@
+Lecture 11
+==========
+
+Before class:
+-------------
+I watched the week 11 lecture videos and completed the weekly checkpoint.
+
+
+Open questions:
+How many machine architectures aer there on NetBSD and how do you find them?
+Program is not correctly compiling. How should we fix it?
+
+After class:
+------------
+Important take-away:
+- Add #indef and #def to fix multiple server variable issues
+- In a dynamically linked file, the program has to get information from different files to link (dlopen() is used to link files at runtime)
+- There are 119 e_machines
+

@@ -1,0 +1,22 @@
+Lecture 09
+==========
+
+Before class:
+-------------
+I watched the week 9 lecture videos and completed the weekly checkpoint.
+
+
+Open questions:
+What is the difference between multi processing and multi threading?
+Do semaphores need to be used for multi processing?
+
+After class:
+------------
+Important take-away:
+- Raw sockets require super user privileges
+- To read and write on a socket you would need to use binding
+	-Can be used as a rendezvous point for unrelated and related processes
+- Multi processing creates separate processes that have a copy of all data
+	-There is no shared data since the processes are forked
+- Multi threading creates separate threads for the processes, there is some data that is shared so a semaphore or other concurrency tools may be required
+

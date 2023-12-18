@@ -1,0 +1,18 @@
+Lecture 07
+==========
+
+Before class:
+-------------
+I watched the week 7 lecture videos and completed the weekly checkpoint.
+
+
+Open questions:
+Why does the reentrant.c program run differently on Ubuntu and NetBSD?
+
+After class:
+------------
+Important take-away:
+- Every process has a process id, belong to the login session, and have their own process group
+- If the session leader is terminated all the process in that session will also be terminated
+- Signals are asynchronous events and allow for interprocess communication
+

@@ -1,0 +1,17 @@
+Lecture 05
+==========
+
+Before class:
+-------------
+I watched the week 5 lecture videos and completed the weekly checkpoint.
+
+
+Open questions:
+What is a Whiteout file?
+How does the program pointer.c work when ran with ./a.out foo?
+
+After class:
+------------
+Important take-away:
+- For question 5 in weekly checkpoint:
+	- Overflowed argv[0] buffer by using the strcat and it overflowed the null byte into the argv[1] string thus printing a blank

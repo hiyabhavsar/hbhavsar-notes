@@ -1,0 +1,23 @@
+Lecture 13
+==========
+
+Before class:
+-------------
+I watched the week 13 lecture videos and completed the weekly checkpoint.
+
+
+Open questions:
+How should the CGI environment be set up?
+Why are secure levels not widely used if they are so secure?
+Are there alternative methods for security besides secure levels?
+
+After class:
+------------
+Important take-away:
+- The GET function logic
+- CGI environment variables
+- Restricting super users could be done with file flags (used as a security precaution so superusers do not have access to everything)
+- Secure levels are set during rebooting which prevents an attacker from changing privileges and having root access if they have remote access. 
+Attacker would need to reboot the system to change privileges and permissions
+
+

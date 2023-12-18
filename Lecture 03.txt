@@ -1,0 +1,19 @@
+Lecture 03
+==========
+
+Before class:
+-------------
+I watched the week 3 lecture videos and completed the weekly checkpoint.
+
+
+Open questions:
+What is the difference between files of type socket and network socket?
+
+
+After class:
+------------
+Important take-away:
+- In order to identify if two files are the same then compare the i-node numbers and device number for the filesystem
+- In order to remove a file from a directory, the user must have write and execute permissions on the directory in which the file is in
+- File of type socket is a rendezvous point for interprocess communication (only have access from the system)
+- Network socket is also a rendezvous point for interprocess communication but within the kernel space (do not have access control)

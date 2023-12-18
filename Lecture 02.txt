@@ -1,0 +1,18 @@
+Lecture 02
+==========
+
+Before class:
+-------------
+I watched the week 2 lecture videos and completed the weekly checkpoint.
+Completed the file descriptor exercise within the weekly checkpoint.
+
+Open questions:
+Why do certain commands run differently between different Unix systems?
+
+
+After class:
+------------
+Important take-away:
+- Different limits for opening a file for user and a process
+- 3 file descriptors are always open: stdin, stdout, stderr
+- As a regular user, you cannot raise the limit because if a user was able to raise the limit then the user could use all the resources

@@ -1,0 +1,20 @@
+Lecture 01
+==========
+
+Before class:
+-------------
+I was not able to get access to the course website since I had not registered for the class.
+
+Open questions:
+What is CS 631 about?
+What is required for the class?
+Whare are some outcomes I will have obtained after the semester?
+
+
+After class:
+------------
+Important take-away:
+- Follow the Unix philosophy
+- The shell in Unix is also a programming language
+- Follow the NetBSD coding style
+- Comments should explain why the code is written not what the code is doing

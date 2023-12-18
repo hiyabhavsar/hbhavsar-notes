@@ -1,0 +1,19 @@
+Lecture 08
+==========
+
+Before class:
+-------------
+I watched the week 8 lecture videos and completed the weekly checkpoint.
+
+
+Open questions:
+Why are semaphores so popular?
+Why is popen(2) treated differently on different programming languages?
+
+After class:
+------------
+Important take-away:
+- Semaphores, shared memory, and message queues use the kernel to have IPC
+- Semaphores are not reliable since they rely on outside processes
+- Shared memory is super fast since it resides in memory
+

@@ -1,0 +1,18 @@
+Lecture 10
+==========
+
+Before class:
+-------------
+I watched the week 10 lecture video.
+
+
+Open questions:
+What are some ways we should approach the project?
+What are the request methods and headers that are needed?
+
+After class:
+------------
+Important take-away:
+- HTTP 1.0 requirements
+- Final project snapshot requirements
+

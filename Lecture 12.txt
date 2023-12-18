@@ -1,0 +1,19 @@
+Lecture 12
+==========
+
+Before class:
+-------------
+I watched the week 12 lecture videos and completed the weekly checkpoint.
+
+
+Open questions:
+How does CGI work?
+What is the difference  between GET and HEAD?
+
+After class:
+------------
+Important take-away:
+- Log daemon is used as a generic facility for system daemons that do not have separation
+- Non blocking is used to allow for the program to continue other processes if the write cannot be executed whereas in blocking mode the process will be stuck until all the writes are ready to be processed in chunks
+- GET sends all of the HEAD information and the content of the file (similar to cat)
+
